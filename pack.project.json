@@ -1,0 +1,23 @@
+{
+
+    "name": "Narrator",
+    "tree": {
+
+        "$path": "Linking.lua",
+
+        "Packages": {
+
+            "$className": "Folder",
+            "$path": "Packages",
+
+            "Narrator": {
+
+                "$path": "src"
+
+            }
+
+        }
+
+    }
+
+}
