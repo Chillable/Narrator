@@ -1,0 +1,17 @@
+{
+
+  "name": "Narrator",
+
+  "tree": {
+
+    "$path": "Packages",
+
+    "Act": {
+
+      "$path": "src"
+
+    }
+
+  }
+
+}

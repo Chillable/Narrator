@@ -1,0 +1,13 @@
+[package]
+name = "chillable/narrator"
+description = "A lightweight library to schedule in-game events."
+version = "0.1.1"
+registry = "https://github.com/UpliftGames/wally-index"
+license = "MIT"
+realm = "shared"
+exclude = ["tests"]
+
+[dependencies]
+Trove = "sleitnick/trove@0.5.0"
+Signal = "sleitnick/signal@1.2.1"
+t = "osyrisrblx/t@3.0.0"

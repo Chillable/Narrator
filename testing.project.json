@@ -1,0 +1,27 @@
+{
+    "name": "Test",
+    "tree": {
+
+        "$className": "DataModel",
+
+        "ServerScriptService": {
+
+            "$className": "ServerScriptService",
+            "$path": "tests",
+
+            "Packages": {
+
+                "$path": "Packages",
+
+                "Narrator": {
+
+                    "$path": "src"
+
+                }
+
+            }
+
+        }
+
+    }
+}
