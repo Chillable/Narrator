@@ -1,28 +1,17 @@
 local Narrator = require(script.Parent.Packages.Narrator)
 
-function Test1(Proceed, Trove)
+local Act = {
 
-    Proceed(1, 2, 3)
+    Name = "ExampleAct"
 
-    return function()
+}
+
+function Act:Start(Proceed, Trove)
     
-        print("Proceed to Test2")
-        
-    end
 
 end
 
-function Test2(Proceed, Trove, ...)
-
-    print("Test2 started")
-    print(...)
-
-    return function()
-        
-        print("Ended")
-
-    end
+function Act:End()
     
-end
 
-Narrator.Narrate({Test1, Test2})
+end
